@@ -20,3 +20,10 @@ FROM comercial.clientes;
 
 SELECT DISTINCT (regiao) -- nome da coluna
 FROM comercial.clientes;
+
+--MISTURANDO OS DOIS
+SELECT 
+	DISTINCT(nome), 
+	cidade, 
+	uf
+FROM comercial.clientes;
