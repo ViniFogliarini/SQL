@@ -1,8 +1,10 @@
 /*SELECT e DISTINCT*/
 
-/* SELECT  vai selecionar o que queremos ver
+/* 
+SELECT  vai selecionar o que queremos ver
 	*  seleciona tudo, pode também passar o nome das colunas
-FROM  de onde isso vem. No PostgreSQL precisamos passar a schemas.tabela */
+FROM  de onde isso vem. No PostgreSQL precisamos passar a schemas.tabela 
+*/
 
 
 SELECT * FROM comercial.clientes; -- ponto e vírgula para dizer que a instrução terminou
